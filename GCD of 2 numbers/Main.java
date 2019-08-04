@@ -9,7 +9,6 @@ int gcd(int a,int b)
     return a;
   else
     return gcd(b,a%b);
-  return b;
 }
 int main()
 {
